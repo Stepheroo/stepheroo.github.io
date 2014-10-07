@@ -6,7 +6,11 @@
 	
 }
 body {
-	background: url(Umbria2.jpg) no-repeat center center;
+	 background: url(Umbria2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .signup-form {
 	color: #fff;
